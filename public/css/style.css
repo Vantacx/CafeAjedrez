@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+.h_100{
+    height: 100vh;
+    background-color: rgba(232, 218, 239, 0.5);
+}
+#errores{
+    background-image: url('/proyecto/proyecto2021/public/imagenes/errorw.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#errores h1{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+#main{
+    background-image: url('/proyecto/proyecto2021/public/imagenes/ajedrez.jpg');
+    background-size: cover;
+}
+#main2{
+    background: black;
+}
+/* titulos */
+.titulos{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.ajedreztitle{
+    padding-left: 40px;
+}
+.titulospading{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+/* Fondos */
+.fondogris{
+    background-color: gray;
+}
+.fondomoradoscuro{
+    background-color: rgb(86, 76, 96)
+}
+.fondonegro{
+    background-color: black;
+}
+.fondegra1{
+    background: rgb(99,68,34);
+    background: linear-gradient(90deg, rgba(99,68,34,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%);
+}
+.fondegra2{
+    background: rgb(207,93,0);
+    background: radial-gradient(circle, rgba(207,93,0,1) 0%, rgba(112,50,0,1) 41%, rgba(81,36,0,1) 61%, rgba(0,0,0,1) 100%);
+}
+.fondegra3{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,73,129,1) 100%);
+}   
+.fondegra4{
+    background: rgb(66,73,129);
+    background: linear-gradient(90deg, rgba(66,73,129,1) 0%, rgba(0,0,0,1) 100%);
+}
+.fondegra5{
+    background: rgb(96,66,33);
+    background: linear-gradient(90deg, rgba(96,66,33,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+/* Divs */
+.a1{
+    margin:10px;
+    color:aqua;
+    background-color:rgba(31, 31, 31, 0.75);
+}
+.a2{
+    margin:10px;
+    color:aqua;
+    background-color:rgba(31, 31, 31, 0.75);
+}
+.divderecha{
+    background-color:rgba(0, 0, 0); 
+} 
+.divelije{
+    margin: 10px;
+    margin-bottom: 30px;
+    height:480px;
+    background-image: url('/proyecto/proyecto2021/public/imagenes/fondo2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.divchess{
+    background-color:#D7F4FC;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    height:auto;
+}
+.p1{
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+}
+.puno{
+    margin-left: 20px;
+}
+/* Bordes */
+.bordea{
+    border-style: inset;
+    border-color: orange;
+}
+.bordeb{
+    border-style: dashed;
+    border-color: red
+}
+.bordechess{
+    border-style: dashed;
+    border-color: #1C2021;
+    border-radius: 40px 40px 40px 40px;
+    border: solid 5px;
+}
+.borimg{
+    border-style: dashed;
+    border-color: #1C2021;
+    border-radius: 5px 5px 5px 5px;
+    border: solid 3px;
+}
+.boragine{
+    border-color: black;
+    border: solid 5px;
+    border-radius: 30px 0 30px 0;
+}
+/* Fuentes y centrados */
+.centrado{
+    text-align: center;
+}
+.fuentea{
+    font-style: italic;
+}
+/* Botones */
+.botonb{
+    padding: 20px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 200px;
+    background: rgb(62,62,62);
+    background: linear-gradient(70deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 100%);
+}
+.botonc{
+    padding: 20px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    background: rgb(62,62,62);
+    background: linear-gradient(70deg, rgba(62,62,62,1) 0%, rgba(255,255,255,1) 100%);
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+/*colores*/
+.negrotex{
+    color: black;
+}
+.rojo{
+    color: red;
+}
+/*Margenes */
+.margen{
+    margin: 0 30%;
+}
+.padd{
+    padding: 5%;
+}
+.traf{
+    margin-left: 50%;
+    transform: translateX(-100%);
+}
+/* Formulario */
+.fondof{
+    background-color:#D7F4FC;
+}
+@media screen and (max-width:425px){
+    .divchess{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .margen{
+        margin: 0 10%;
+    }
+}
